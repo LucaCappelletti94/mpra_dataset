@@ -47,4 +47,4 @@ Once the dataset is rendered, you will find under the "encoded_sequences" direct
 
 Additional informations
 ------------------------------------------------
-The liver enhancers MPRA activity ratios data comes from `the ncbi website <https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE83894&format=file&file=GSE83894%5FActivityRatios%2Etsv%2Egz>`_ .
+The liver enhancers MPRA activity ratios data comes from `the ncbi website <https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE83894&format=file&file=GSE83894%5FActivityRatios%2Etsv%2Egz>`_.
