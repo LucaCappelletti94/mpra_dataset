@@ -1,0 +1,13 @@
+dist: trusty
+sudo: false
+git:
+  depth: false
+language: python
+python:
+- '3.6'
+before_install:
+  - pip install --upgrade pytest
+install:
+- pip install .[test]
+script:
+- pytest --cov=mpra_dataset --cov-report xml:coverage.xml 
