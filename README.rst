@@ -1,5 +1,7 @@
 MPRA dataset
 ======================
+|travis|
+
 Simple python package to build sequence (and in the future also epigenomic) data for MPRA.
 
 How do I get this?
@@ -37,3 +39,7 @@ To build the `default dataset <https://github.com/LucaCappelletti94/mpra_dataset
     pipeline("dataset")
 
 Once the dataset is rendered, you will find under the "encoded_sequences" directory the one-hot encoded nucleotides, and under "activity_ratios" the activity scores from the given raw files.
+
+
+.. |travis| image:: https://travis-ci.com/LucaCappelletti94/mpra_dataset.svg?token=RksTFS6Qqghd4eDPtnKg&branch=master
+    :target: https://travis-ci.com/LucaCappelletti94/mpra_dataset
