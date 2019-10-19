@@ -12,7 +12,7 @@ In the future this package will be available on pip. Currently you need to clone
     cd mpra_dataset
     pip install .
 
-You also need to install `bedtools <https://bedtools.readthedocs.io/en/latest/>`_. On macOS it is available on `brew <https://brew.sh/>`_, while on Debian/Ubuntu you can get it on apt as follow:
+You also need to install `bedtools <https://bedtools.readthedocs.io/en/latest/>`_. On macOS it is available on `brew <https://brew.sh/>`_, while on Debian/Ubuntu you can get it on apt.
 
 For macOS:
 
@@ -35,3 +35,5 @@ To build the `default dataset <https://github.com/LucaCappelletti94/mpra_dataset
 
     from mpra_dataset import pipeline
     pipeline("dataset")
+
+Once the dataset is rendered, you will find under the "encoded_sequences" directory the one-hot encoded nucleotides, and under "activity_ratios" the activity scores from the given raw files.
