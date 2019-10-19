@@ -48,3 +48,5 @@ Once the dataset is rendered, you will find under the "encoded_sequences" direct
 Additional informations
 ------------------------------------------------
 The liver enhancers MPRA activity ratios data comes from `the ncbi website <https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE83894&format=file&file=GSE83894%5FActivityRatios%2Etsv%2Egz>`_.
+
+The reference epigenome comes `from the encode project <https://www.encodeproject.org/search/?type=ReferenceEpigenome&assembly=hg19&organism.scientific_name=Homo+sapiens&biosample_ontology.classification=cell+line&award.project=ENCODE&limit=all>`_, but I still have to check if it alligns with the one used by Wasserman.
