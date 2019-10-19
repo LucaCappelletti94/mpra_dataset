@@ -61,6 +61,7 @@ setup(
     # Add here the package dependencies
     install_requires=[
         "ucsc_genomes_downloader",
+        "fasta_one_hot_encoder",
         "pandas"
     ],
     extras_require=extras,
