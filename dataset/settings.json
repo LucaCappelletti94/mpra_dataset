@@ -1,0 +1,7 @@
+{
+    "genome": "hg19",
+    "base_pairs": 200,
+    "file_names":[
+        "liver_enhancers"
+    ]
+}
